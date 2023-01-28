@@ -1,0 +1,31 @@
+#profile {
+    background: #f5f5f5;
+    margin: auto;
+  }
+
+
+#profile .image-text h1,h3{
+    margin-left: 32px;
+}
+
+.input-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#profil .container {
+    margin-top: 55px;
+    border: 1px solid #b3b6b6;
+    padding: 16px 22px;
+}
+
+#profil .container>h3 {
+    margin-left: auto;
+}
+
+#profil .button {
+    padding: 12px 16px;
+    background: maroon;
+}
