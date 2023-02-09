@@ -1,0 +1,118 @@
+#cart-container table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#cart-container thead {
+    font-weight: 700;
+}
+
+#cart-container table thead td {
+    background: maroon;
+    color: #fff;
+    border: none;
+    padding: 6px;
+}
+
+#cart-container table td {
+    border: 1px solid #b6b3b3;
+    text-align: center;
+}
+
+#cart-container table td:nth-child(1) {
+    width: 100px;
+}
+
+#cart-container table td:nth-child(2),
+#cart-container table td:nth-child(3) {
+    width: 200px;
+}
+
+#cart-container table td:nth-child(4),
+#cart-container table td:nth-child(5),
+#cart-container table td:nth-child(6) {
+    width: 170px;
+}
+
+#cart-container table tbody img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+
+#cart-container table tbody i {
+    font-size:30px; 
+    color:maroon;
+}
+
+#cart-bottom .total>div {
+    border: 1px solid #b6b3b3;
+}
+
+#cart-bottom .total h5 {
+    background: maroon;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    font-weight: 700;
+}
+
+#cart-bottom .total div>div {
+    padding: 0 12px;
+}
+
+.second-hr {
+    background: #b8b7b3;
+    width: 100%;
+    height: 1px;
+    margin-top: -10px;
+}
+
+#cart-bottom .total div>button {
+    margin: 0 12px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(15, 15, 15);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+
+#cart-bottom .total>div {
+    margin-top: 40px;
+}
+
+#cart-bottom .metode>div {
+    border: 1px solid #b6b3b3;
+}
+
+#cart-bottom .metode h5 {
+    background: maroon;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    font-weight: 700;
+}
+
+#cart-bottom .metode div>div {
+    padding: 0 12px;
+}
+
+#cart-bottom .metode div>button {
+    margin: 0 12px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(15, 15, 15);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+
+#cart-bottom .metode>div {
+    margin-top: 40px;
+}
